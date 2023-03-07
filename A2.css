@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 181, 17);
+    background-size: 100% 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    /* display:flex; */
+    flex-flow:row wrap;
+    justify-content:center;
+    height:100vh;
+    align-items:center;
+    align-content:center;
+    
+}
+/* https://codepen.io/Birello/pen/MRQWBJ - hover effect */
+.thought:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
+}
+
+.thought2:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
+}
+
+.thought3:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
+}
+
+.thought4:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+    
+.btn {
+    /* border: black; */
+    background-color:rgb(227, 181, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* transition-duration: 2s; */
+    margin-left: 450px;
+    margin-right: 30px;
+    margin-top: 50px;
+    z-index: 100;
+    /* left: 150px; */
+}
+
+/* https://codepen.io/quadbaup/pen/rKOKQv */
+.thought{
+    display:flex;
+    background-color:#fff;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:220px;
+    min-height:40px;
+    margin: 20px;
+    position: relative;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    bottom:615px;
+    left: 390px;
+}
+.thought:before,
+.thought:after {
+  content:"";
+  background-color:#fff;
+  border-radius:50%;
+  display:block;
+  position:absolute;
+  z-index:-1;
+}
+.thought:before {
+  width:44px;
+  height:44px;
+  top:-12px;
+  left:28px;
+  box-shadow:-50px 30px 0 -12px #fff;
+}
+.thought:after {
+  bottom:-10px;
+  right:26px;
+  width:30px;
+  height:30px;
+  box-shadow:40px -34px 0 0 #fff,
+             -28px -6px 0 -2px #fff,
+             -24px 17px 0 -6px #fff,
+             -5px 25px 0 -10px #fff;
+  
+}
+
+.thought2{
+    display:flex;
+    background-color:#fff;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:220px;
+    min-height:40px;
+    margin: 20px;
+    position: relative;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    left:210px; bottom:610px;
+}
+.thought2:before,
+.thought2:after {
+  content:"";
+  background-color:#fff;
+  border-radius:50%;
+  display:block;
+  position:absolute;
+  z-index:-1;
+}
+.thought2:before {
+  width:44px;
+  height:44px;
+  top:-12px;
+  left:28px;
+  box-shadow:-50px 30px 0 -12px #fff;
+}
+.thought2:after {
+  bottom:-10px;
+  right:26px;
+  width:30px;
+  height:30px;
+  box-shadow:40px -34px 0 0 #fff,
+             -28px -6px 0 -2px #fff,
+             -24px 17px 0 -6px #fff,
+             -5px 25px 0 -10px #fff;
+  
+}
+
+.thought3 {
+    display:flex;
+    background-color:#fff;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:220px;
+    min-height:40px;
+    margin: 20px;
+    position:sticky;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    bottom: 280px;
+    left: 390px;
+}
+.thought3:before,
+.thought3:after {
+  content:"";
+  background-color:#fff;
+  border-radius:50%;
+  display:block;
+  position:absolute;
+  z-index:-1;
+}
+.thought3:before {
+  width:44px;
+  height:44px;
+  top:-12px;
+  left:28px;
+  box-shadow:-50px 30px 0 -12px #fff;
+}
+.thought3:after {
+  bottom:-10px;
+  right:26px;
+  width:30px;
+  height:30px;
+  box-shadow:40px -34px 0 0 #fff,
+             -28px -6px 0 -2px #fff,
+             -24px 17px 0 -6px #fff,
+             -5px 25px 0 -10px #fff;
+  
+}
+
+.thought4 {
+    display:flex;
+    background-color:#fff;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:220px;
+    min-height:40px;
+    margin: 20px;
+    position:sticky;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    bottom:170px; 
+    left: 250px;
+}
+.thought4:before,
+.thought4:after {
+  content:"";
+  background-color:#fff;
+  border-radius:50%;
+  display:block;
+  position:absolute;
+  z-index:-1;
+}
+.thought4:before {
+  width:44px;
+  height:44px;
+  top:-12px;
+  left:28px;
+  box-shadow:-50px 30px 0 -12px #fff;
+}
+.thought4:after {
+  bottom:-10px;
+  right:26px;
+  width:30px;
+  height:30px;
+  box-shadow:40px -34px 0 0 #fff,
+             -28px -6px 0 -2px #fff,
+             -24px 17px 0 -6px #fff,
+             -5px 25px 0 -10px #fff;
+  
+}
+
+.top-right a {
+    position: absolute;
+    left: 50px;
+    top:1em;
+    right:1em;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.bottom-right a {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    color: black;
+    font-size: 20px;
+}
+
+.top-left a{
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.bottom-left a{
+    position: absolute;
+    left: 1.5em;
+    bottom: 1.5em;
+    color: black;
+    font-size: 20px;
+}
+.egg{
+    position: absolute;
+    /* right: 20px; */
+    left: 750px;
+    width: 362px;
+    height: 506px;
+    background-color: #ffffff;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    /* opacity: 0.9; */
+    animation: shakeobj 0.5s infinite;
+
+}
+@keyframes shakeobj {
+    0% {transform: translate(1px, 1px) rotate(1deg);}
+    15% {transform: translate(-3px, -1px) rotate(3deg);}
+    30% {transform: translate(-1px, -2px) rotate(-2deg);}
+    45% {transform: translate(1px, 3px) rotate(0deg);}
+    60% {transform: translate(-1px, -2px) rotate(-3deg);}
+    75% {transform: translate(-1px, -1px) rotate(-1deg);}
+    90% {transform: translate(1px, 2px) rotate(2deg);}
+    90% {transform: translate(-1px, -1px) rotate(0deg);}
+}
+
+
+.header{
+    font-family: "ff-nexus-typewriter", sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+/* Split the screen in half */
+
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color: rgb(245, 238, 238);
+}
+  
+/* Control the right side */
+.right {
+    right: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fade{
+  opacity: 0;
+}
+
+
+/* Style the image inside the centered container, if needed
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+  } */
